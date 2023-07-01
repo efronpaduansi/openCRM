@@ -2,7 +2,7 @@
     <!-- Brand Logo -->
     <a href="#" class="brand-link bg-danger">
       <img src="{{ asset('backend/dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">HH Net</span>
+      <span class="brand-text font-weight-light">OpenCRM</span>
     </a>
 
     <!-- Sidebar -->
@@ -141,12 +141,12 @@
             </a>
           </li>
           @elseif(Auth::user()->role == 'guest')
-            <li class="nav-item">
+            {{-- <li class="nav-item">
               <a href="{{ route('pendaftaran.index') }}" class="nav-link {{ (request()->is('guest/pilih-produk')) ? 'active' : '' || (request()->is('guest/pendaftaran')) ? 'active' : '' }}">
                 <i class="nav-icon fas fa-user-clock"></i>
                 <p>Pendaftaran</p>
               </a>
-            </li>
+            </li> --}}
             <li class="nav-item">
               <a href="{{ route('produk') }}" class="nav-link {{ (request()->is('guest/produk')) ? 'active' : '' }}">
                 <i class="nav-icon bi bi-box2-heart"></i>

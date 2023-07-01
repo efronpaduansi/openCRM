@@ -7,7 +7,7 @@
 
         <div class="row  justify-content-center">
           <div class="col-lg-6">
-            <h3>HHNET</h3>
+            <h3>OpenCRM</h3>
             <p>Dapatkan kualitas internet terbaik bersama kami.</p>
           </div>
         </div>
